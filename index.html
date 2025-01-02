@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Semainier</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="agenda-container">
+        <header class="agenda-header">
+            <h1>Agenda Semainier</h1>
+            <div class="current-date" id="current-date"></div>
+        </header>
+
+        <div class="week-view">
+            <div class="day" id="monday">
+                <h2>Lundi</h2>
+                <ul class="events"></ul>
+                <button class="add-event" onclick="addEvent('monday')">Ajouter un événement</button>
+            </div>
+            <div class="day" id="tuesday">
+                <h2>Mardi</h2>
+                <ul class="events"></ul>
+                <button class="add-event" onclick="addEvent('tuesday')">Ajouter un événement</button>
+            </div>
+            <div class="day" id="wednesday">
+                <h2>Mercredi</h2>
+                <ul class="events"></ul>
+                <button class="add-event" onclick="addEvent('wednesday')">Ajouter un événement</button>
+            </div>
+            <div class="day" id="thursday">
+                <h2>Jeudi</h2>
+                <ul class="events"></ul>
+                <button class="add-event" onclick="addEvent('thursday')">Ajouter un événement</button>
+            </div>
+            <div class="day" id="friday">
+                <h2>Vendredi</h2>
+                <ul class="events"></ul>
+                <button class="add-event" onclick="addEvent('friday')">Ajouter un événement</button>
+            </div>
+            <div class="day" id="saturday">
+                <h2>Samedi</h2>
+                <ul class="events"></ul>
+                <button class="add-event" onclick="addEvent('saturday')">Ajouter un événement</button>
+            </div>
+            <div class="day" id="sunday">
+                <h2>Dimanche</h2>
+                <ul class="events"></ul>
+                <button class="add-event" onclick="addEvent('sunday')">Ajouter un événement</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
